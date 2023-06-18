@@ -50,12 +50,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Box(contentAlignment = Alignment.Center) {
-//                        Greeting("Android")
-                        AnimatedColorBorder(radius = 5.dp) {
-                            Box(modifier = Modifier.size(100.dp))
-                        }
-                    }
+                   PaletteBackground()
                 }
             }
         }
